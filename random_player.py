@@ -1,7 +1,7 @@
 import random
 
-#a = int(input('How many players?   '))
-#b = random.randint(1,a)
+a = int(input('How many players?   '))
+b = random.randint(1,a)
 
 dict = {
     1: "Conner",
