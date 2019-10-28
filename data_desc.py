@@ -8,3 +8,5 @@ def data_desc(data):
             desc[x] = data[x].describe()
     print("Summary of Numerical Columns:")
     return desc
+
+print("Imported!")
