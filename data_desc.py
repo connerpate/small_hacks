@@ -1,3 +1,5 @@
+import numpy as np
+
 def data_desc(data):
     cols = data.columns
     desc = pd.DataFrame()
