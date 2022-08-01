@@ -8,6 +8,11 @@ def data_desc(data):
     return desc
 
 
+def order_magnitude_sorting(x):
+  return(
+      round(np.log10(x),0)
+  )
+
 
 #This function creates box plots for all numerical data within a df, sorted by their order of magnitude
 def description_box_plot_data(df):
